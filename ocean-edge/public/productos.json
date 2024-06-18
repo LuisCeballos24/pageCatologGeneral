@@ -1,0 +1,93 @@
+{
+  "smartphones": [
+    {
+      "name": "Galaxy S22 Ultra",
+      "image": "https://placehold.co/150x150",
+      "price": "₹32999",
+      "originalPrice": "₹74999",
+      "savings": "₹32999"
+    },
+    {
+      "name": "Galaxy M13 (4GB | 64 GB)",
+      "image": "https://placehold.co/150x150",
+      "price": "₹10499",
+      "originalPrice": "₹14999",
+      "savings": "₹4500"
+    },
+    {
+      "name": "Galaxy M33 (4GB | 64 GB)",
+      "image": "https://placehold.co/150x150",
+      "price": "₹16999",
+      "originalPrice": "₹24999",
+      "savings": "₹8000"
+    },
+    {
+      "name": "Galaxy M53 (4GB | 64 GB)",
+      "image": "https://placehold.co/150x150",
+      "price": "₹31999",
+      "originalPrice": "₹42999",
+      "savings": "₹9000"
+    },
+    {
+      "name": "Galaxy S22 Ultra",
+      "image": "https://placehold.co/150x150",
+      "price": "₹67999",
+      "originalPrice": "₹85999",
+      "savings": "₹18000"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Mobile",
+      "image": "https://placehold.co/100x100"
+    },
+    {
+      "name": "Cosmetics",
+      "image": "https://placehold.co/100x100"
+    },
+    {
+      "name": "Electronics",
+      "image": "https://placehold.co/100x100"
+    },
+    {
+      "name": "Furniture",
+      "image": "https://placehold.co/100x100"
+    },
+    {
+      "name": "Watches",
+      "image": "https://placehold.co/100x100"
+    },
+    {
+      "name": "Decor",
+      "image": "https://placehold.co/100x100"
+    },
+    {
+      "name": "Accessories",
+      "image": "https://placehold.co/100x100"
+    }
+  ],
+  "electronics": [
+    {
+      "name": "IPHONE",
+      "image": "https://placehold.co/150x150",
+      "discount": "UP to 80% OFF"
+    },
+    {
+      "name": "REALME",
+      "image": "https://placehold.co/150x150",
+      "discount": "UP to 80% OFF"
+    },
+    {
+      "name": "XIAOMI",
+      "image": "https://placehold.co/150x150",
+      "discount": "UP to 80% OFF"
+    }
+  ],
+  "essentials": [
+    {
+      "name": "Daily Essentials",
+      "image": "https://placehold.co/150x150",
+      "discount": "UP to 50% OFF"
+    }
+  ]
+}
