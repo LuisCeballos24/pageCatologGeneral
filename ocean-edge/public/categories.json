@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Electronics",
+    "subcategories": ["Mobiles", "Laptops", "Cameras", "Headphones"]
+  },
+  {
+    "name": "Fashion",
+    "subcategories": ["Men's Clothing", "Women's Clothing", "Jewelry", "Shoes"]
+  },
+  {
+    "name": "Home & Kitchen",
+    "subcategories": ["Furniture", "Decor", "Appliances", "Cookware"]
+  },
+  {
+    "name": "Beauty",
+    "subcategories": ["Skincare", "Makeup", "Hair Care", "Fragrances"]
+  },
+  {
+    "name": "Sports",
+    "subcategories": ["Fitness", "Outdoor", "Indoor Games", "Cycling"]
+  },
+  {
+    "name": "Toys & Hobbies",
+    "subcategories": ["Action Figures", "Dolls", "Puzzles", "Educational Toys"]
+  },
+  {
+    "name": "Automotive",
+    "subcategories": ["Car Accessories", "Motorcycle Accessories", "Tools", "Car Care"]
+  },
+  {
+    "name": "Books",
+    "subcategories": ["Fiction", "Non-Fiction", "Children's Books", "Educational"]
+  }
+]

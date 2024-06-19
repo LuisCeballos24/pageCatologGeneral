@@ -1,93 +1,141 @@
 {
   "smartphones": [
     {
+      "id": "1",
       "name": "Galaxy S22 Ultra",
       "image": "https://placehold.co/150x150",
       "price": "₹32999",
       "originalPrice": "₹74999",
-      "savings": "₹32999"
+      "savings": "₹32999",
+      "details": [
+        "6.8-inch Quad HD+ Dynamic AMOLED 2X Display",
+        "108MP+12MP+12MP+12MP Quad Camera",
+        "5000mAh Battery"
+      ]
     },
     {
+      "id": "2",
       "name": "Galaxy M13 (4GB | 64 GB)",
       "image": "https://placehold.co/150x150",
       "price": "₹10499",
       "originalPrice": "₹14999",
-      "savings": "₹4500"
+      "savings": "₹4500",
+      "details": [
+        "6.5-inch HD+ Infinity-V Display",
+        "48MP+8MP+5MP Triple Camera",
+        "6000mAh Battery"
+      ]
     },
     {
+      "id": "3",
       "name": "Galaxy M33 (4GB | 64 GB)",
       "image": "https://placehold.co/150x150",
       "price": "₹16999",
       "originalPrice": "₹24999",
-      "savings": "₹8000"
+      "savings": "₹8000",
+      "details": [
+        "6.6-inch Full HD+ Infinity-U Display",
+        "64MP+8MP+5MP Triple Camera",
+        "6000mAh Battery"
+      ]
     },
     {
+      "id": "4",
       "name": "Galaxy M53 (4GB | 64 GB)",
       "image": "https://placehold.co/150x150",
       "price": "₹31999",
       "originalPrice": "₹42999",
-      "savings": "₹9000"
-    },
-    {
-      "name": "Galaxy S22 Ultra",
-      "image": "https://placehold.co/150x150",
-      "price": "₹67999",
-      "originalPrice": "₹85999",
-      "savings": "₹18000"
+      "savings": "₹9000",
+      "details": [
+        "6.7-inch Full HD+ Super AMOLED Display",
+        "108MP+12MP+5MP Triple Camera",
+        "4500mAh Battery"
+      ]
     }
   ],
   "categories": [
     {
+      "id": "1",
       "name": "Mobile",
       "image": "https://placehold.co/100x100"
     },
     {
+      "id": "2",
       "name": "Cosmetics",
       "image": "https://placehold.co/100x100"
     },
     {
+      "id": "3",
       "name": "Electronics",
       "image": "https://placehold.co/100x100"
     },
     {
+      "id": "4",
       "name": "Furniture",
       "image": "https://placehold.co/100x100"
     },
     {
+      "id": "5",
       "name": "Watches",
       "image": "https://placehold.co/100x100"
     },
     {
+      "id": "6",
       "name": "Decor",
       "image": "https://placehold.co/100x100"
     },
     {
+      "id": "7",
       "name": "Accessories",
       "image": "https://placehold.co/100x100"
     }
   ],
   "electronics": [
     {
+      "id": "1",
       "name": "IPHONE",
       "image": "https://placehold.co/150x150",
-      "discount": "UP to 80% OFF"
+      "discount": "UP to 80% OFF",
+      "details": [
+        "Super Retina XDR display",
+        "A15 Bionic chip",
+        "Advanced dual-camera system"
+      ]
     },
     {
+      "id": "2",
       "name": "REALME",
       "image": "https://placehold.co/150x150",
-      "discount": "UP to 80% OFF"
+      "discount": "UP to 80% OFF",
+      "details": [
+        "Super AMOLED Fullscreen",
+        "64MP Ultra Quad Camera",
+        "4500mAh Massive Battery"
+      ]
     },
     {
+      "id": "3",
       "name": "XIAOMI",
       "image": "https://placehold.co/150x150",
-      "discount": "UP to 80% OFF"
+      "discount": "UP to 80% OFF",
+      "details": [
+        "120Hz AMOLED Display",
+        "108MP Camera",
+        "4600mAh Battery"
+      ]
     }
   ],
   "essentials": [
     {
+      "id": "1",
       "name": "Daily Essentials",
       "image": "https://placehold.co/150x150",
-      "discount": "UP to 50% OFF"
+      "discount": "UP to 50% OFF",
+      "details": [
+        "Facial Cleanser",
+        "Sunscreen",
+        "Moisturizer"
+      ]
     }
   ]
 }
