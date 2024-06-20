@@ -1,34 +1,74 @@
 [
   {
     "name": "Electronics",
-    "subcategories": ["Mobiles", "Laptops", "Cameras", "Headphones"]
+    "subcategories": [
+      {"id": 1, "name": "Mobiles"},
+      {"id": 2, "name": "Laptops"},
+      {"id": 3, "name": "Cameras"},
+      {"id": 4, "name": "Headphones"}
+    ]
   },
   {
     "name": "Fashion",
-    "subcategories": ["Men's Clothing", "Women's Clothing", "Jewelry", "Shoes"]
+    "subcategories": [
+      {"id": 5, "name": "Men's Clothing"},
+      {"id": 6, "name": "Women's Clothing"},
+      {"id": 7, "name": "Jewelry"},
+      {"id": 8, "name": "Shoes"}
+    ]
   },
   {
     "name": "Home & Kitchen",
-    "subcategories": ["Furniture", "Decor", "Appliances", "Cookware"]
+    "subcategories": [
+      {"id": 9, "name": "Furniture"},
+      {"id": 10, "name": "Decor"},
+      {"id": 11, "name": "Appliances"},
+      {"id": 12, "name": "Cookware"}
+    ]
   },
   {
     "name": "Beauty",
-    "subcategories": ["Skincare", "Makeup", "Hair Care", "Fragrances"]
+    "subcategories": [
+      {"id": 13, "name": "Skincare"},
+      {"id": 14, "name": "Makeup"},
+      {"id": 15, "name": "Hair Care"},
+      {"id": 16, "name": "Fragrances"}
+    ]
   },
   {
     "name": "Sports",
-    "subcategories": ["Fitness", "Outdoor", "Indoor Games", "Cycling"]
+    "subcategories": [
+      {"id": 17, "name": "Fitness"},
+      {"id": 18, "name": "Outdoor"},
+      {"id": 19, "name": "Indoor Games"},
+      {"id": 20, "name": "Cycling"}
+    ]
   },
   {
     "name": "Toys & Hobbies",
-    "subcategories": ["Action Figures", "Dolls", "Puzzles", "Educational Toys"]
+    "subcategories": [
+      {"id": 21, "name": "Action Figures"},
+      {"id": 22, "name": "Dolls"},
+      {"id": 23, "name": "Puzzles"},
+      {"id": 24, "name": "Educational Toys"}
+    ]
   },
   {
     "name": "Automotive",
-    "subcategories": ["Car Accessories", "Motorcycle Accessories", "Tools", "Car Care"]
+    "subcategories": [
+      {"id": 25, "name": "Car Accessories"},
+      {"id": 26, "name": "Motorcycle Accessories"},
+      {"id": 27, "name": "Tools"},
+      {"id": 28, "name": "Car Care"}
+    ]
   },
   {
     "name": "Books",
-    "subcategories": ["Fiction", "Non-Fiction", "Children's Books", "Educational"]
+    "subcategories": [
+      {"id": 29, "name": "Fiction"},
+      {"id": 30, "name": "Non-Fiction"},
+      {"id": 31, "name": "Children's Books"},
+      {"id": 32, "name": "Educational"}
+    ]
   }
 ]
