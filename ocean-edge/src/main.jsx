@@ -10,7 +10,6 @@ import MainContent from './components/PrincipalPage/mainContent';
 import ProductCard from './components/ProductPage/productCard';
 import ProductList from './components/ProductPage/productList';
 import ProductCarShopping from './components/ProductPage/productCarShopping';
-import Login from './components/Login/login'
 import './index.css';
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
             <Route path="/:category/:id" element={<ProductCard />} />
             <Route path="/:category/:subcategories/:id" element={<ProductList />} />
             <Route path="/cart" element={<ProductCarShopping />} />
-            <Route path="/signup" element={<Login />} />
         </Routes>
         <Footer language={language} />
     </div>
