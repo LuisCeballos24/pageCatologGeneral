@@ -9,6 +9,7 @@ import Navigation from './components/PrincipalPage/navigation';
 import MainContent from './components/PrincipalPage/mainContent';
 import ProductCard from './components/ProductPage/productCard';
 import ProductList from './components/ProductPage/productList';
+import ProductCarShopping from './components/ProductPage/productCarShopping';
 import './index.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/" element={<MainContent language={language} />} />
             <Route path="/:category/:id" element={<ProductCard />} />
             <Route path="/:category/:subcategories/:id" element={<ProductList />} />
+            <Route path="/cart" element={<ProductCarShopping />} />
         </Routes>
         <Footer language={language} />
     </div>

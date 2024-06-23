@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { FaUser, FaShoppingCart, FaBars } from 'react-icons/fa';
 
 const Navigation = () => {
     const [categories, setCategories] = useState([]);
@@ -70,9 +71,20 @@ const Navigation = () => {
                     </div>
                 </div>
                 <div className="flex items-center space-x-4 mt-4 md:mt-0">
-                    <div className="text-sm text-gray-600 hidden md:block">Sign Up/Sign In</div>
-                    <div className="text-sm text-gray-600 hidden md:block">Cart</div>
-                    <div className="text-sm text-gray-600 md:hidden">Menu</div>
+                    <div className="flex space-x-4">
+                        <Link to="/signup" className="flex items-center text-gray-600 hover:text-gray-800 hidden md:flex">
+                            <FaUser className="mr-2" />
+                            <span className="text-sm">Sign Up/Sign In</span>
+                        </Link>
+                        <Link to="/cart" className="flex items-center text-gray-600 hover:text-gray-800 hidden md:flex">
+                            <FaShoppingCart className="mr-2" />
+                            <span className="text-sm">Cart</span>
+                        </Link>
+                        <div className="flex items-center text-gray-600 hover:text-gray-800 md:hidden">
+                            <FaBars className="mr-2" />
+                            <span className="text-sm">Menu</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             {menuVisible && activeCategory && (
