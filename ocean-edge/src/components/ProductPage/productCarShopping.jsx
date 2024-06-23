@@ -56,7 +56,7 @@ const ProductCarShopping = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-1/3 bg-blue-900 p-6 rounded-lg shadow-md ml-8">
+                    <div className="w-1/3 bg-panama-blue p-6 rounded-lg shadow-md ml-8">
                         <div className="flex justify-between items-center mb-4">
                             <h2 className="text-white text-lg font-semibold">Card Details</h2>
                             <img src="https://placehold.co/40x40" alt="User profile" className="w-10 h-10 rounded-full"/>
