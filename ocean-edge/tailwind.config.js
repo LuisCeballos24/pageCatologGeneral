@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'panama-blue': '#005293',
+        // Personaliza los colores si es necesario
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],

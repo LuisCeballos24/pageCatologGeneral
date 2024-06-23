@@ -34,7 +34,7 @@ const Carousel = () => {
     }
 
     return (
-        <div className="relative bg-panama-blue text-white rounded-lg p-8 flex flex-col md:flex-row items-center justify-between z-10">
+        <div className="relative bg-blue-900 text-white rounded-lg p-8 flex flex-col md:flex-row items-center justify-between z-10">
             <button
                 onClick={handlePrev}
                 className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-blue-700 p-2 rounded-full z-20"
