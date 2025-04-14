@@ -1,9 +1,15 @@
 const express = require('express');
+const cors = require('cors'); // Importa el middleware cors
 const app = express();
 const port = process.env.PORT || 3000;
 const db = require('./db');
 
 app.use(express.json());
+
+// Middleware de cors configurado para permitir solicitudes desde localhost:5173
+app.use(cors({
+  origin: 'http://localhost:5173'
+}));
 
 // Ruta para obtener todas las categorías
 app.get('/categories', async (req, res) => {

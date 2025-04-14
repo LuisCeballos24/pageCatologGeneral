@@ -29,7 +29,7 @@ const ProductCard = ({ product, category }) => {
         style={{ cursor: 'pointer' }}
       >
         <img
-          src={product.images && product.images.length > 0 ? product.images[currentImage] : 'placeholder.jpg'}
+          src={product.image ? product.image : 'placeholder.jpg'}
           alt={product.name}
           className="w-full h-40 object-cover"
         />
@@ -46,15 +46,10 @@ const ProductCard = ({ product, category }) => {
 };
 
 const MainContent = () => {
-  const [productsData, setProductsData] = useState({
-    smartphones: [],
-    categories: [],
-    electronics: [],
-    essentials: [],
-  });
+  const [productsData, setProductsData] = useState([]);
 
   useEffect(() => {
-    fetch('productos.json') // Ruta relativa desde la carpeta public
+    fetch('http://localhost:3000/products') // Aquí debes cambiar la URL por la correcta de tu API
       .then(response => response.json())
       .then(data => setProductsData(data))
       .catch(error => console.error('Error al cargar los datos:', error));
@@ -67,48 +62,8 @@ const MainContent = () => {
           Grab the best deal on <span className="text-blue-600">Smartphones</span>
         </h2>
         <div className="flex flex-wrap justify-center gap-4">
-          {productsData.smartphones && productsData.smartphones.map((product, index) => (
+          {productsData.map((product, index) => (
             <ProductCard key={index} product={product} category="smartphones" />
-          ))}
-        </div>
-      </section>
-
-      <section className="mt-8">
-        <h2 className="text-2xl font-bold mb-4 text-blue-400">
-          Shop From <span className="text-blue-600">Top Categories</span>
-        </h2>
-        <div className="flex flex-wrap justify-center gap-4">
-          {productsData.categories && productsData.categories.map((category, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <img
-                src={category.image}
-                alt={category.name}
-                className="w-24 h-24 object-cover rounded-full"
-              />
-              <p className="mt-2 text-gray-800">{category.name}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="mt-8">
-        <h2 className="text-2xl font-bold mb-4 text-blue-400">
-          Top <span className="text-blue-600">Electronics Brands</span>
-        </h2>
-        <div className="flex flex-wrap justify-center gap-4">
-          {productsData.electronics && productsData.electronics.map((product, index) => (
-            <ProductCard key={index} product={product} category="electronics" />
-          ))}
-        </div>
-      </section>
-
-      <section className="mt-8">
-        <h2 className="text-2xl font-bold mb-4 text-blue-400">
-          Daily <span className="text-blue-600">Essentials</span>
-        </h2>
-        <div className="flex flex-wrap justify-center gap-4">
-          {productsData.essentials && productsData.essentials.map((product, index) => (
-            <ProductCard key={index} product={product} category="essentials" />
           ))}
         </div>
       </section>
